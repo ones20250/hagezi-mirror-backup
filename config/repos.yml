@@ -1,0 +1,4 @@
+repositories:
+  - name: hagezi-mirror
+    source: https://gitlab.com/hagezi/mirror.git
+    releases: false

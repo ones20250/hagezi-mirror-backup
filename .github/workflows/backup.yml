@@ -1,36 +1,25 @@
-name: Hagezi Mirror Backup
+name: Repository Backup
 
 on:
   workflow_dispatch:
-
   schedule:
-    # 每周日 UTC 03:00
     - cron: "0 3 * * 0"
-
 
 permissions:
   contents: write
 
+concurrency:
+  group: backup
+  cancel-in-progress: false
 
 jobs:
-
   backup:
-
     runs-on: ubuntu-latest
-
-
     steps:
+      - name: Checkout
+        uses: actions/checkout@v4
 
-    - name: Checkout
-      uses: actions/checkout@v4
-
-
-    - name: Backup GitLab repository
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      run: |
-
-        chmod +x backup.sh
-
-        ./backup.sh
+      - name: Backup repositories
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: bash scripts/backup.sh
