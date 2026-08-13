@@ -56,7 +56,7 @@ sync_repo() {
 
 parse_config() {
   awk '
-    /^[[:space:]]*-[[:space:]]*name:/   { name=$2 }
+    /^[[:space:]]*-[[:space:]]*name:/   { name=$3 }
     /^[[:space:]]*source:/              { if (name != "") print name "\t" $2; name="" }
   ' "$CONFIG"
 }
