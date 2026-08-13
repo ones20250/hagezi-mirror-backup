@@ -6,57 +6,43 @@ set -e
 SOURCE="https://gitlab.com/hagezi/mirror.git"
 
 
-echo "================================"
-echo "Backup source:"
-echo "$SOURCE"
-echo "================================"
+echo "Clone source repository"
 
 
-
-mkdir work
-
-cd work
+rm -rf repo
 
 
-git init
+git clone --bare "$SOURCE" repo
 
 
-
-git remote add upstream "$SOURCE"
-
+cd repo
 
 
-git remote add origin \
+git remote add backup \
 "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
 
 
 
-echo "Fetching upstream..."
-
-git fetch upstream
+echo "Detect branches"
 
 
-
-echo "Pushing branches..."
-
-
-
-for branch in $(git branch -r | grep upstream | sed 's#upstream/##')
+for branch in $(git for-each-ref --format='%(refname:short)' refs/heads/)
 do
 
-    echo "Sync branch: $branch"
+    echo "Push branch: $branch"
 
-    git push origin \
-    "refs/remotes/upstream/$branch:refs/heads/$branch" || true
+    git push backup \
+    "refs/heads/$branch:refs/heads/$branch"
 
 done
 
 
 
-echo "Pushing tags..."
-
-git push origin --tags || true
+echo "Push tags"
 
 
+git push backup --tags
 
-echo "Backup complete"
+
+
+echo "Backup finished"
