@@ -10,6 +10,16 @@ If a domain seems to be blocked incorrectly, or you believe a domain should be b
 
 ---
 
+### :floppy_disk: Official mirrors <a name="mirrors"></a>
+
+Official mirrors of the blocklist files:
+                  
+- https://hagezi-mirror.dnsbunker.org - updated every 4-8 hours and provided directly from the build system.
+- https://gitlab.com/hagezi/mirror - updated once a day.
+- https://codeberg.org/hagezi/mirror2 - updated once a day.
+
+---
+
 ### :warning: Disclaimer <a name="disclaimer"></a>
 
 > [!IMPORTANT]
