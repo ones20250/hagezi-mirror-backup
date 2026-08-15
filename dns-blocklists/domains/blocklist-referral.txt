@@ -5,10 +5,10 @@
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 # Expires: 1 day
-# Last modified: 14 Aug 2026 06:56 UTC
-# Version: 2026.0814.0656.29
+# Last modified: 15 Aug 2026 06:50 UTC
+# Version: 2026.0815.0650.27
 # Syntax: Domains (including possible subdomains)
-# Number of entries: 2578
+# Number of entries: 2587
 #
 1-aclk.net
 1aurl.io
@@ -477,6 +477,7 @@ seu2.cleverreach.com
 218621.seu2.cleverreach.com
 219444.seu2.cleverreach.com
 219699.seu2.cleverreach.com
+222270.seu2.cleverreach.com
 225261.seu2.cleverreach.com
 226547.seu2.cleverreach.com
 227325.seu2.cleverreach.com
@@ -559,6 +560,7 @@ seu2.cleverreach.com
 294962.seu2.cleverreach.com
 295398.seu2.cleverreach.com
 295939.seu2.cleverreach.com
+297461.seu2.cleverreach.com
 298054.seu2.cleverreach.com
 298121.seu2.cleverreach.com
 298245.seu2.cleverreach.com
@@ -656,6 +658,7 @@ seu2.cleverreach.com
 402714.seu2.cleverreach.com
 408717.seu2.cleverreach.com
 410317.seu2.cleverreach.com
+410644.seu2.cleverreach.com
 411956.seu2.cleverreach.com
 413084.seu2.cleverreach.com
 413220.seu2.cleverreach.com
@@ -853,6 +856,7 @@ dd57e575.open.convertkit-mail.com
 f5ff3826.open.convertkit-mail.com
 preview.convertkit-mail.com
 0b0e7239.unsubscribe.convertkit-mail.com
+c0647c5e.unsubscribe.convertkit-mail.com
 convertkit-mail2.com
 click.convertkit-mail2.com
 18f44d8a.click.convertkit-mail2.com
@@ -1267,7 +1271,6 @@ bounce.s13.exacttarget.com
 click.s13.exacttarget.com
 click-sms.s13.exacttarget.com
 mc.s13.exacttarget.com
-members.s13.exacttarget.com
 s4.exacttarget.com
 mc.s4.exacttarget.com
 members.s4.exacttarget.com
@@ -1330,6 +1333,7 @@ fis-iittala-cdn.exponea.com
 fis-moominarabia-cdn.exponea.com
 fis-royalcopenhagen-cdn.exponea.com
 cdn.ftspecialist.exponea.com
+hpt-cdn.exponea.com
 cdn.mie.exponea.com
 neoengage-va-cdn.exponea.com
 cdn.network.exponea.com
@@ -1563,7 +1567,6 @@ group0.sites.hscoscdn-eu1.net
 146273777.group0.sites.hscoscdn-eu1.net
 146325655.group0.sites.hscoscdn-eu1.net
 146447957.group0.sites.hscoscdn-eu1.net
-146514935.group0.sites.hscoscdn-eu1.net
 146638686.group0.sites.hscoscdn-eu1.net
 146754416.group0.sites.hscoscdn-eu1.net
 147093040.group0.sites.hscoscdn-eu1.net
@@ -1596,6 +1599,7 @@ sites.hscoscdn-na2.net
 group0.sites.hscoscdn-na2.net
 241933515.group0.sites.hscoscdn-na2.net
 242128791.group0.sites.hscoscdn-na2.net
+243557781.group0.sites.hscoscdn-na2.net
 244842231.group0.sites.hscoscdn-na2.net
 246436727.group0.sites.hscoscdn-na2.net
 341676991.group0.sites.hscoscdn-na3.net
@@ -1656,11 +1660,14 @@ group47.sites.hscoscdn40.net
 group48.sites.hscoscdn40.net
 group49.sites.hscoscdn40.net
 api.hubapi.com
+437400074-pwpartners.api.hubapi.com
+709160970-pwpartners.api.hubapi.com
 api-ap1.hubapi.com
 api-eu1.hubapi.com
 api-na1.hubapi.com
 api-na2.hubapi.com
 api-na3.hubapi.com
+api.getsidekick.comapi.hubapi.com
 hubspotemail.net
 hubspotlinks.com
 c.hubz.pl
@@ -1805,7 +1812,6 @@ track.mfilter.net
 micpn.com
 email.microsoft.com
 bounce4.email.microsoft.com
-bounce5.email.microsoft.com
 go.microsoft.com
 target.microsoft.com
 click.email.microsoftemail.com
@@ -1850,7 +1856,6 @@ mkto-ab220178.com
 mkto-ab240112.com
 mkto-ab250068.com
 mkto-ab250105.com
-mkto-ab250167.com
 mkto-ab260164.com
 mkto-ab270090.com
 mkto-ab270109.com
@@ -1892,6 +1897,7 @@ mkto-ab430187.com
 mkto-ab440025.com
 mkto-ab440026.com
 mkto-ab440032.com
+mkto-ab440076.com
 mkto-ab450015.com
 mkto-ab450037.com
 mkto-ab470119.com
@@ -1900,6 +1906,7 @@ mkto-ab480014.com
 mkto-ab480015.com
 mkto-ab480166.com
 mkto-ab500022.com
+mkto-ab520004.com
 mkto-ab530192.com
 mkto-ab540059.com
 mkto-ab540143.com
@@ -2089,7 +2096,7 @@ chasede.api-02.moengage.com
 chaseuk.api-02.moengage.com
 api-03.moengage.com
 api-04.moengage.com
-api-101.moengage.com
+bapi-01.moengage.com
 bapi-02.moengage.com
 belvillaguest.bapi-02.moengage.com
 bluetechnology.bapi-02.moengage.com
@@ -2558,8 +2565,10 @@ redirect.appmetrica.yandex.ru
 1645778.redirect.appmetrica.yandex.com
 16807.redirect.appmetrica.yandex.com
 177585.redirect.appmetrica.yandex.com
+18895.redirect.appmetrica.yandex.com
 19531.redirect.appmetrica.yandex.com
 25378.redirect.appmetrica.yandex.com
+29733.redirect.appmetrica.yandex.com
 3.redirect.appmetrica.yandex.com
 317729.redirect.appmetrica.yandex.com
 3474082.redirect.appmetrica.yandex.com

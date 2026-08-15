@@ -5,8 +5,8 @@
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 # Expires: 1 day
-# Last modified: 06 Aug 2026 21:59 UTC
-# Version: 2026.0806.2159.27
+# Last modified: 14 Aug 2026 22:01 UTC
+# Version: 2026.0814.2201.02
 # Syntax: Hosts (including possible subdomains)
 # Number of entries: 750
 #
@@ -158,6 +158,7 @@
 0.0.0.0 measure.office.net.edgesuite.net
 0.0.0.0 nel.measure.office.net.edgesuite.net
 0.0.0.0 nelsdf.measure.office.net.edgesuite.net
+0.0.0.0 westeurope-5.in.applicationinsights.azure.com.fiege.de
 0.0.0.0 collector.azure.eaglex.ic.gov
 0.0.0.0 analytics.live.com
 0.0.0.0 digg.analytics.live.com
@@ -275,6 +276,7 @@
 0.0.0.0 learninglab.ads.microsoft.com
 0.0.0.0 mediamarketplace.ads.microsoft.com
 0.0.0.0 mmcapi.ads.microsoft.com
+0.0.0.0 resource.ads.microsoft.com
 0.0.0.0 smetric.ads.microsoft.com
 0.0.0.0 status.ads.microsoft.com
 0.0.0.0 support.ads.microsoft.com
@@ -396,7 +398,6 @@
 0.0.0.0 uk-v20.events.data.microsoft.com
 0.0.0.0 umwatson.events.data.microsoft.com
 0.0.0.0 umwatsonc.events.data.microsoft.com
-0.0.0.0 us-ic3.events.data.microsoft.com
 0.0.0.0 us-mesh.events.data.microsoft.com
 0.0.0.0 us-mobile.events.data.microsoft.com
 0.0.0.0 us-teams.events.data.microsoft.com
@@ -682,7 +683,6 @@
 0.0.0.0 irreverselookuptm.trafficmanager.net
 0.0.0.0 ism-telemetry.trafficmanager.net
 0.0.0.0 legacywatson.trafficmanager.net
-0.0.0.0 o365diagtelemetry.trafficmanager.net
 0.0.0.0 office-events-data.trafficmanager.net
 0.0.0.0 oms-analytics.trafficmanager.net
 0.0.0.0 pixel-sync.trafficmanager.net

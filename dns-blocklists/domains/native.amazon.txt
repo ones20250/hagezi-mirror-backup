@@ -5,10 +5,10 @@
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 # Expires: 1 day
-# Last modified: 07 Aug 2026 22:10 UTC
-# Version: 2026.0807.2210.03
+# Last modified: 14 Aug 2026 22:00 UTC
+# Version: 2026.0814.2200.06
 # Syntax: Domains (including possible subdomains)
-# Number of entries: 704
+# Number of entries: 702
 #
 3px.axp.amazon-adsystem.com
 aan.amazon.co.jp
@@ -224,7 +224,6 @@ bugsnag.appstore.a2z.com
 bugsnag.shopbop.amazon.dev
 c.amazon-adsystem.com
 c.aps.amazon-adsystem.com
-c.toolbox.aps.amazon-adsystem.com
 ca-central-1-1.telemetry.insights.video.a2z.com
 ca-central-1-2.telemetry.insights.video.a2z.com
 ca-central-1-3.telemetry.insights.video.a2z.com
@@ -273,7 +272,6 @@ cell8002.pdx.stv.event-na.ads.aps.amazon-adsystem.com
 cell8002.pdx.web.bid-na.ads.aps.amazon-adsystem.com
 cell8003.iad.mobile.bid-na.ads.aps.amazon-adsystem.com
 cell8003.iad.mobile.event-na.ads.aps.amazon-adsystem.com
-cell8004.pdx.stv.bid-na.ads.aps.amazon-adsystem.com
 cell8004.pdx.stv.event-na.ads.aps.amazon-adsystem.com
 cell8005.iad.mobile.bid-na.ads.aps.amazon-adsystem.com
 cell8005.iad.mobile.event-na.ads.aps.amazon-adsystem.com
@@ -507,7 +505,6 @@ s2s.stv.bid-na.ads.aps.amazon-adsystem.com
 s2s.stv.event-na.ads-beta.aps.amazon-adsystem.com
 s2s.stv.event-na.ads-gamma.aps.amazon-adsystem.com
 s2s.stv.event-na.ads.aps.amazon-adsystem.com
-s2s.web.bid-eu.ads.aps.amazon-adsystem.com
 s3-dub-ww.cf.videorolls.row.aiv-cdn.net
 s3-iad-ww.cf.videorolls.row.aiv-cdn.net
 sa-east-1-1.telemetry.insights.video.a2z.com
@@ -541,6 +538,7 @@ sponsored-ads.amazon.com
 sponsored-ads.amazon.com.au
 sponsored-ads.amazon.com.br
 sponsored-ads.amazon.com.mx
+sponsored-ads.amazon.com.tr
 sponsored-ads.amazon.eg
 sponsored-ads.amazon.es
 sponsored-ads.amazon.fr

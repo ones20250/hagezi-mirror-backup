@@ -6,10 +6,10 @@
 # Issues: https://github.com/hagezi/dns-blocklists/issues
 # Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 # Expires: 1 day
-# Last modified: 13 Aug 2026 23:29 UTC
-# Version: 2026.0813.2329.15
+# Last modified: 15 Aug 2026 08:23 UTC
+# Version: 2026.0815.0823.14
 # Syntax: Hosts (including possible subdomains)
-# Number of entries: 3776
+# Number of entries: 3778
 #
 0.0.0.0 ss.0001.xyz
 0.0.0.0 003153.xyz
@@ -1417,6 +1417,7 @@
 0.0.0.0 safe.eaccelera.com
 0.0.0.0 adguard.easez.net
 0.0.0.0 easyhandshake.com
+0.0.0.0 dns.easyhns.com
 0.0.0.0 dns.echpochmak-club.ru
 0.0.0.0 dns.edc-pws.com
 0.0.0.0 dns.eddi.net
@@ -1810,6 +1811,7 @@
 0.0.0.0 ns2.hjk.me
 0.0.0.0 jpdns.hker.me
 0.0.0.0 dd.hlm.ovh
+0.0.0.0 hnsdoh.com
 0.0.0.0 adguard.hoangcongchuc.com
 0.0.0.0 pihole1.hoerli.net
 0.0.0.0 pihole2.hoerli.net
