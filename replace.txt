@@ -1,0 +1,10 @@
+https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/ --> https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/
+https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists-legacy@latest/ --> https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/
+https://cdn.jsdelivr.net/gh/hagezi/nrd@latest/ --> https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/
+https://raw.githubusercontent.com/hagezi/nrd/main/ --> https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/
+https://raw.githubusercontent.com/hagezi/dns-blocklists-legacy/main/ --> https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/
+https://github.com/hagezi/dns-blocklists/blob/main/ --> https://gitlab.com/hagezi/mirror/-/tree/main/dns-blocklists/
+https://github.com/hagezi/dns-blocklists/tree/main/ --> https://gitlab.com/hagezi/mirror/-/tree/main/dns-blocklists/
+https://raw.githubusercontent.com/hagezi/dns-blocklists/main/ --> https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/
+https://github.com/hagezi/dns-blocklists/wiki/FAQ# --> FAQ.md#
+share/ --> dns-blocklists/share/
